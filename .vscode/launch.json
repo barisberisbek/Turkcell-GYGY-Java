@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SpringCqrsApplication",
+            "request": "launch",
+            "mainClass": "com.turkcell.spring_cqrs.SpringCqrsApplication",
+            "projectName": "spring-cqrs"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringStarterApplication<spring-starter>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.turkcell.spring_starter.SpringStarterApplication",
+            "projectName": "spring-starter",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
